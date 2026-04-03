@@ -24,7 +24,7 @@ from mrcnn.model import log
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 
 # Local path to trained weights file
-COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_tdm_0400.h5")
+COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_MoS2_400.h5")
 
 # Configuration
 import mos2_train
