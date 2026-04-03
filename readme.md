@@ -53,7 +53,7 @@ Configure your Python environment using the following commands:
 | Image data augmentation | Random flip (H/V 70%), Rotation (±100°), Translation (±20%), Scaling (0.7-1.3), Shearing (±16), HSV adjustment |
 
 ### 2.2 Training Execution
-Before starting, ensure the Python environment, pre-trained weights (**`[INSERT URL HERE: Pre-trained Weights]`**), and the MoS2 dataset are correctly configured.
+Before starting, ensure the Python environment, pre-trained weights (**`[https://zenodo.org/records/19394086]`**), and the MoS2 dataset are correctly configured.
 
 **Steps:**
 1.  Place `mos2_train.py` in the root directory. Create a `MoS2/` folder to store the input microscope images.
