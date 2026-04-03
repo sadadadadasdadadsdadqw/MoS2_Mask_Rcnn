@@ -1,0 +1,12 @@
+Mask RCNN Overall Pixel-Level Evaluation Report (Tailored for Materials Science Area Evaluation)
+================================================================================
+
+Evaluation Time: 2026-04-02T11:48:50.661570
+Total Images Evaluated: 218
+
+Overall Pixel-Level Metrics (Mean ¡À Std):
+----------------------------------------
+PRECISION   : 0.9712 ¡À 0.0220
+RECALL      : 0.9638 ¡À 0.0159
+F1_SCORE    : 0.9673 ¡À 0.0145
+IOU         : 0.9370 ¡À 0.0255
