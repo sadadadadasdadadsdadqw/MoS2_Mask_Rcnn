@@ -10,6 +10,7 @@ This repository contains the code and configuration details for the MoS2 crystal
 * **Stage 1 Evaluation Code (`mos2_pixel_evaluate.py`):** [Link](https://github.com/sadadadadasdadadsdadqw/MoS2_Mask_Rcnn/blob/master/mos2_pixel_evaluate.py)
 * **Stage 2 Ablation Study Code:** [Link](https://github.com/sadadadadasdadadsdadqw/MoS2_Mask_Rcnn/tree/master/Ablation%20study)
 * **Stage 3 DF-Image Processing (`BF-DF image fusion.py`):** [Link](https://github.com/sadadadadasdadadsdadqw/MoS2_Mask_Rcnn/blob/master/BF-DF%20image%20fusion.py)
+* **Model Weights for MoS2 Mask R-CNN:** [Link](https://zenodo.org/records/19394086)
 
 ---
 
