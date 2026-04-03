@@ -70,7 +70,7 @@ The environment configuration for prediction is identical to the training enviro
 
 **Steps:**
 1.  Create a `Bimage/` folder in the root directory and place the target MoS2 BF images (.jpg, .jpeg, or .png) inside.
-2.  Load the best weights saved from Stage 1 (epoch 400: **`[INSERT URL HERE: Epoch 400 Weights]`**) by renaming the file to `mask_rcnn_MoS2_400.h5` and placing it in the project root directory.
+2.  Load the best weights saved from Stage 1 (epoch 400: **`[https://zenodo.org/records/19394086]`**) by renaming the file to `mask_rcnn_MoS2_400.h5` and placing it in the project root directory.
 3.  In the prediction script, the confidence threshold (`DETECTION_MIN_CONFIDENCE`) is set to 0.7. Predictions with a probability lower than 0.7 are filtered out.
 4.  Execute the prediction command:
     `python mos2_predict.py`
@@ -92,7 +92,7 @@ An ablation study was conducted to verify the optimal performance of different m
 **Steps:**
 1.  Replace `model.py` and `config.py` in the root `mrcnn` folder with the corresponding files from the Ablation study subfolders.
 2.  Train the model following the same steps as Stage 1.
-3.  After training, retrieve the new weights (**`[INSERT URL HERE: Ablation Study Weights]`**) and update the `COCO_MODEL_PATH` in `mos2_pixel_evaluate.py`.
+3.  After training, retrieve the new weights (**`[https://zenodo.org/records/19394086]`**) and update the `COCO_MODEL_PATH` in `mos2_pixel_evaluate.py`.
 4.  Run `python "mos2_pixel_evaluate.py"` to generate evaluation metrics. Results will be saved in the `evaluation_results/` folder.
 
 **Table S2. Ablation study of different mask head architectures**
